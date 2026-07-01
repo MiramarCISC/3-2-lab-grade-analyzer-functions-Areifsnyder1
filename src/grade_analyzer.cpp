@@ -44,12 +44,12 @@ char determineLetterGrade(double average) {
 
 bool isPassing(double average) {
     // Return true when average is 70 or higher.
-    return (average >= 70) ? true : false;
+    return (average >= 70) ; // Aidan: Dont really need the true false part of the code, it still runs without it
 }
 
 bool isValidScore(double score) {
     // Return true when score is between 0 and 100, inclusive.
-    return (0 <= score && score <= 100) ? true : false;
+    return (0 <= score && score <= 100) ; //Aidan: Same for here, just a way to simplify it
 }
 
 void printGradeReport(double total, double average, char letterGrade, bool passing) {
